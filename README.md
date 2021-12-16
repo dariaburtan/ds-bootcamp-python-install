@@ -25,13 +25,13 @@ Run this in your Anaconda (base) environment
 conda install -c conda-forge textblob
 ```
 
-# Get a list of all your installed packages
+# Get a list of ALL your installed packages
 
 ```
 conda list
 ```
 
-# Get a list of your packages with names that match a string
+# Get a list of your installed packages with names that match a string
 
 ## Windows Powershell
 
