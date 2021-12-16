@@ -1,23 +1,23 @@
 # ds-bootcamp-python-install
 Teaching resources for installing Python with Anaconda
 
-# Package Installation
+## Package Installation
 
-## Easy install packages
+### Easy install packages
 Run this in your Anaconda (base) environment
 
 ```
 conda install numpy pandas matplotlib seaborn scipy scikit-learn statsmodels nltk
 ```
 
-## Notebooks: jupyter, jupyterlab
+### Notebooks: jupyter, jupyterlab
 Run this in your Anaconda (base) environment
 
 ```
 conda install -c conda-forge jupyter jupyterlab
 ```
 
-## TextBlob
+### TextBlob
 
 Run this in your Anaconda (base) environment
 
@@ -25,23 +25,23 @@ Run this in your Anaconda (base) environment
 conda install -c conda-forge textblob
 ```
 
-# Get a list of ALL your installed packages
+## Get a list of ALL your installed packages
 
 ```
 conda list
 ```
 
-# Get a list of your installed packages with names that match a string
+## Get a list of your installed packages with names that match a string
 
-## Windows Powershell
+### Windows Powershell
 
-### Syntax:
+#### Syntax:
 
 ```
 conda list | findstr <string>
 ```
 
-### Example:
+#### Example:
 
 For example, search for everything matching 'jup' (e.g. 'jupyter')
 
@@ -49,15 +49,15 @@ For example, search for everything matching 'jup' (e.g. 'jupyter')
 conda list | findstr jup
 ```
 
-## UNIX terminal (macOS, Linux)
+### UNIX terminal (macOS, Linux)
 
-### Syntax:
+#### Syntax:
 
 ```
 conda list | grep <string>
 ```
 
-### Example:
+#### Example:
 
 For example, search for everything matching 'jup' (e.g. 'jupyter')
 
