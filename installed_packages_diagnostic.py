@@ -10,7 +10,7 @@ import importlib.util as imputil
 
 # List of packages to test presence for
 packages = ["math", "numpy", "pandas", "matplotlib", "seaborn", "scipy",
-            "sklearn", "statsmodels", "nltk", "TextBlob", "bs4",
+            "sklearn", "statsmodels", "nltk", "textblob", "bs4",
             "requests", "datetime", "random", "jupyter", "jupyterlab",
             "IPython"]
 
