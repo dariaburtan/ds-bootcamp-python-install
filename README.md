@@ -4,14 +4,14 @@ Teaching resources for installing Python with Anaconda
 # Package Installation
 
 ## Easy install packages
-Run this in your Anacona (base) environment
+Run this in your Anaconda (base) environment
 
 ```
 conda install numpy pandas matplotlib seaborn scipy scikit-learn statsmodels nltk
 ```
 
 ## Notebooks: jupyter, jupyterlab
-Run this in your Anacona (base) environment
+Run this in your Anaconda (base) environment
 
 ```
 conda install -c conda-forge jupyter jupyterlab
@@ -19,7 +19,7 @@ conda install -c conda-forge jupyter jupyterlab
 
 ## TextBlob
 
-Run this in your Anacona (base) environment
+Run this in your Anaconda (base) environment
 
 ```
 conda install -c conda-forge textblob
