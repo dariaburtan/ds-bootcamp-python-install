@@ -25,14 +25,15 @@ Run this in your Anaconda (base) environment
 conda install -c conda-forge textblob
 ```
 
-# Check your installed packages with Powershell (Windows)
+# Get a list of all your installed packages
 
-## Search all
 ```
 conda list
 ```
 
-## Search for packages with a matching name
+# Get a list of your packages with names that match a string
+
+## Windows Powershell
 
 ### Syntax:
 
@@ -48,14 +49,7 @@ For example, search for everything matching 'jup' (e.g. 'jupyter')
 conda list | findstr jup
 ```
 
-# Check your installed packages with UNIX terminal (macOS, Linux)
-
-## Search all
-```
-conda list
-```
-
-## Search for packages with a matching name
+## UNIX terminal (macOS, Linux)
 
 ### Syntax:
 
